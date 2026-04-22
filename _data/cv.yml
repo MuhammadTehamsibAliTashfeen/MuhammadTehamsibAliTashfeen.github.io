@@ -1,19 +1,8 @@
 cv:
   name: Muhammad Tehmasib Ali Tashfeen
-  label: PhD Candidate in Computer Science
+  label: PhD Candidate · Electrical Engineering & Computer Science
   email: mxalitashfeen@shockers.wichita.edu
   location: Wichita, KS
-  image: ""
-  summary: >
-    PhD candidate in Electrical Engineering and Computer Science at Wichita State University,
-    advised by Dr. Zhiyong Shan at the NSF-supported Software Analysis and Intelligence Laboratory.
-    Research at the intersection of AI, static program analysis, and mobile/software security.
-
-  social_networks:
-    - network: GitHub
-      username: MuhammadTehamsibAliTashfeen
-    - network: LinkedIn
-      username: muhammad-tehmasib-ali-tashfeen-b683831a5
 
   sections:
     Education:
@@ -24,8 +13,8 @@ cv:
         studyType: PhD
         start_date: 2023-08
         end_date: 2027-05
-        score: "3.70 / 4.00"
         highlights:
+          - "GPA: 3.70 / 4.00"
           - "Dissertation (in progress): \"LLM-Assisted Static Analysis for Android Application Leak Detection\""
           - "Advisor: Dr. Zhiyong Shan, Software Analysis and Intelligence Laboratory (NSF-supported)"
           - "Research focus: AI for software/mobile security, static program analysis, LLM-assisted vulnerability detection, side-channel attacks in SDNs"
@@ -37,36 +26,34 @@ cv:
         studyType: BS
         start_date: 2015-08
         end_date: 2019-07
-        score: "3.41 / 4.00"
         highlights:
-          - "Senior Design Project: \"IoT-Based Smart Metering System\" — designed and implemented an IoT platform for remote utility consumption monitoring and reporting"
-          - "Dean's List — 3 semesters (Fall 2016, Fall 2017, Fall 2018) for academic excellence"
+          - "CGPA: 3.41 / 4.00"
+          - "Senior Design Project: \"IoT-Based Smart Metering System\""
+          - "Dean's List — Fall 2016, Fall 2017, Fall 2018"
 
-    Research Experience:
+    Experience:
       - company: "Wichita State University — Software Analysis & Intelligence Laboratory (NSF-supported)"
-        position: "Graduate Research Assistant (Doctoral Researcher) · Advisor: Dr. Zhiyong Shan"
+        position: Graduate Research Assistant
         location: Wichita, Kansas, USA
         url: https://www.wichita.edu/
         start_date: 2023-08
         end_date: present
         highlights:
-          - "Conduct doctoral research at the intersection of AI and mobile/software security, developing static-analysis and data-driven methods for Android application security"
-          - "Designed and led the construction of a large-scale, manually validated dataset of memory leaks in Android Java applications, sourcing and compiling 650+ open-source GitHub projects"
-          - "Developed automated compilation pipelines and conducted rigorous manual ground-truth verification, producing a high-fidelity benchmark for training and evaluating AI-based bug detection models"
-          - "Built deep static-analysis tooling on the Soot framework to detect bug patterns and security violations in Android Java applications"
-          - "Pioneered the use of Large Language Models (LLMs) for software bug detection and categorization, integrating LLM-based reasoning with classical program analysis"
+          - "Advisor: Dr. Zhiyong Shan"
+          - "Designed and led construction of a large-scale, manually validated dataset of memory leaks in Android Java applications (650+ open-source projects)"
+          - "Built static-analysis tooling on the Soot framework to detect bug patterns and security violations in Android Java applications"
+          - "Pioneered the use of Large Language Models (LLMs) for software bug detection, integrating LLM-based reasoning with classical program analysis"
           - "Leveraged the NSF Expanse HPC cluster (Slurm, GPU jobs) for large-scale model training and evaluation"
-          - "Mentor junior graduate and undergraduate researchers; collaborate on paper writing, experimental design, and reproducibility practices"
+          - "Mentors junior graduate and undergraduate researchers; contributes to paper writing, experimental design, and reproducibility"
 
-    Industry Experience:
       - company: Ernst & Young Ford Rhodes
         position: Senior Consultant, Technology Risk
         location: Islamabad, Pakistan
         start_date: 2023-03
         end_date: 2023-06
         highlights:
-          - "Led a cybersecurity audit for Pakistan Telecommunication Company Ltd (PTCL) and Ufone, assessing data centers, network security, and Security Operations Centers (SOC)"
-          - "Evaluated security controls, incident-response mechanisms, and risk-management practices against industry standards and best practices"
+          - "Led cybersecurity audit for PTCL and Ufone, assessing data centers, network security, and Security Operations Centers (SOC)"
+          - "Evaluated security controls, incident-response mechanisms, and risk-management practices against industry standards"
 
       - company: The Bank of Punjab
         position: Information Systems Auditor
@@ -74,8 +61,8 @@ cv:
         start_date: 2020-11
         end_date: 2023-03
         highlights:
-          - "Conducted security audits across critical banking systems, evaluating 100+ applications to identify vulnerabilities and ensure regulatory compliance"
-          - "Authored quarterly Information Security Assurance reports for the Board of Governors; translated penetration-test and vulnerability findings into executive risk heat maps with remediation timelines"
+          - "Conducted security audits across 100+ banking applications to identify vulnerabilities and ensure regulatory compliance"
+          - "Authored quarterly Information Security Assurance reports for the Board of Governors with executive risk heat maps and remediation timelines"
 
       - company: Iron Bridge Systems
         position: Executive Engineer
@@ -85,17 +72,14 @@ cv:
         highlights:
           - "Implemented network and infrastructure security solutions (Firewalls, SIEM, WAF, endpoint protection), reducing security incidents by 90% at client premises"
 
-    Teaching Experience:
       - company: "Wichita State University, School of Computing"
-        position: "Graduate Teaching Assistant — Advanced Algorithm Analysis (CS 721, Graduate)"
+        position: "Graduate Teaching Assistant — Advanced Algorithms/Analysis (CS 721)"
         location: Wichita, Kansas, USA
         start_date: 2026-01
         end_date: 2026-05
         highlights:
           - "Tuesday / Thursday 14:00 · Section 23280"
-          - "Support graduate-level instruction in advanced algorithm design and analysis: asymptotic analysis, divide-and-conquer, dynamic programming, graph algorithms, NP-completeness, approximation/randomized algorithms"
-          - "Hold office hours, lead recitations and problem-solving sessions, and provide individualized feedback on proofs, algorithm correctness, and complexity analysis"
-          - "Develop and grade homework, programming assignments, and exams; mentor students on research-style algorithmic problems"
+          - "Supported graduate-level instruction in algorithm design and analysis; held office hours, led recitations, graded homework and exams"
 
       - company: "Wichita State University, School of Computing"
         position: "Graduate Teaching Assistant — Introduction to Programming (CS 211)"
@@ -104,84 +88,61 @@ cv:
         end_date: 2026-05
         highlights:
           - "Tuesday / Thursday 09:30 · Section 23251"
-          - "Mentor undergraduate students in foundational programming concepts: control flow, data structures, recursion, object-oriented design, and debugging"
-          - "Conduct weekly lab sessions, deliver targeted code reviews, and provide structured feedback to support students from diverse academic backgrounds"
-          - "Collaborate with course instructor on assessment design, rubric calibration, and accessibility of course materials"
+          - "Conducted weekly lab sessions, delivered code reviews, and provided structured feedback to undergraduate students"
 
     Honors and Awards:
       - title: Young Researcher Award
         date: 2025-10
         awarder: "3rd International Conference on Emerging Trends & Innovation (ICETI 2025)"
         url: https://link.springer.com/book/9783032224255
-        summary: "Awarded in recognition of exceptional dedication and promise in research; presented for outstanding early-career achievements and potential as a future leader in academia. Proceedings published by Springer in the Information Systems Engineering and Management series (vol. 86)."
+        summary: "Awarded for exceptional dedication and promise in research; presented for outstanding early-career achievements. Proceedings published by Springer, Information Systems Engineering and Management series (vol. 86)."
 
       - title: Research Excellence Award
         date: 2025-10
         awarder: "3rd International Conference on Emerging Trends & Innovation (ICETI 2025)"
         url: https://link.springer.com/book/9783032224255
-        summary: "Recognized for high quality, originality, and impactful contribution to the field of Computing, Artificial Intelligence, and Emerging Technologies. Proceedings published by Springer in the Information Systems Engineering and Management series (vol. 86)."
+        summary: "Recognized for high quality, originality, and impactful contribution to Computing, Artificial Intelligence, and Emerging Technologies. Proceedings published by Springer (vol. 86)."
 
     Professional Service:
-      - title: Journal Reviewing
-        date: 2026
-        awarder: "Iraqi Journal of Information and Communication Technology (IJICT)"
-        summary: "Reviewer (double-anonymous). Manuscript: \"mTON-IoT: A Modified Dataset Engineering for Multifactor Authentication with Comparative Study Based RL and ML.\""
-
-      - title: Conference Service
-        date: 2025
-        awarder: ICETI 2025
-        summary: "Participant and contributor, 3rd International Conference on Emerging Trends & Innovation."
-
-      - title: Professional Membership
-        date: 2023
-        awarder: IEEE
-        summary: "Member, Institute of Electrical and Electronics Engineers."
+      - label: "Journal Reviewer"
+        details: "Iraqi Journal of Information and Communication Technology (IJICT), 2026. Manuscript (double-anonymous): \"mTON-IoT: A Modified Dataset Engineering for Multifactor Authentication with Comparative Study Based RL and ML.\""
+      - label: "Conference Service"
+        details: "Participant and contributor, 3rd International Conference on Emerging Trends & Innovation (ICETI 2025)"
+      - label: "Professional Membership"
+        details: "Member, Institute of Electrical and Electronics Engineers (IEEE)"
 
     Certificates:
       - name: "Certified Ethical Hacker (CEH v11)"
-        date: ""
         issuer: EC-Council
         url: https://1drv.ms/b/s!AjwQRQwZMx6biHSV7WEzvUmBHsal?e=5C2GtP
         icon: fa-solid fa-shield-halved
 
       - name: "Certified in Cybersecurity (CC)"
-        date: ""
         issuer: "(ISC)²"
         url: https://1drv.ms/b/s!AjwQRQwZMx6brU76wSB7tM6DMzIJ?e=g6krxo
         icon: fa-solid fa-lock
 
     Skills:
       - name: Program Analysis
-        level: Advanced
         icon: fa-solid fa-magnifying-glass-chart
-        keywords: "Soot (static analysis, IR transformation, call-graph construction), FlowDroid, bytecode-level instrumentation, memory-leak and bug-pattern detection"
+        keywords: "Soot (static analysis, IR transformation, call-graph construction), FlowDroid (taint analysis), bytecode-level instrumentation, memory-leak and bug-pattern detection"
 
       - name: Mobile & Android Security
-        level: Advanced
         icon: fa-brands fa-android
         keywords: "Android internals (Dalvik bytecode, manifest & permission model), APK analysis, large-scale OSS Android dataset construction and validation"
 
       - name: Network & Systems Security
-        level: Advanced
         icon: fa-solid fa-network-wired
         keywords: "Software-Defined Networks (SDNs), side-channel attacks and mitigations, security control assessment, Firewalls / SIEM / WAF"
 
-      - name: Machine Learning
-        level: Intermediate
+      - name: Machine Learning & LLMs
         icon: fa-solid fa-brain
-        keywords: "Supervised classification (logistic regression, random forest, XGBoost), evaluation and cross-validation, class-imbalance handling, PyTorch"
-
-      - name: Large Language Models
-        level: Advanced
-        icon: fa-solid fa-robot
-        keywords: "LLM-assisted code/bug analysis, prompt engineering, Hugging Face Transformers, OpenAI API, Anthropic API"
+        keywords: "PyTorch, scikit-learn, XGBoost, Hugging Face Transformers, OpenAI API, Anthropic API, prompt engineering, LLM-assisted code analysis"
 
       - name: Programming
-        level: Advanced
         icon: fa-solid fa-code
-        keywords: "Python (research, scripting, ML), Java (Android, Soot), Bash; reading-level: C/C++, SQL"
+        keywords: "Python, Java (Android, Soot), Bash; reading-level: C/C++, SQL"
 
       - name: Research Computing
-        level: Advanced
         icon: fa-solid fa-server
-        keywords: "NSF ACCESS / Expanse HPC cluster (Slurm, GPU jobs), Linux, Git/GitHub, LaTeX, reproducible experiment workflows"
+        keywords: "NSF ACCESS / Expanse HPC (Slurm, GPU jobs), Linux, Git/GitHub, LaTeX, Docker"
