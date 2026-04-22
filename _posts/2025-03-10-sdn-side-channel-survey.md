@@ -9,18 +9,47 @@ categories: research
 
 Software-Defined Networking decouples the control plane from the data plane, enabling flexible, programmable network management. That architectural separation, however, creates new side-channel attack surfaces that traditional network security models were not designed to address.
 
-My survey — currently under review at *ACM Computing Surveys* — systematically maps the landscape of side-channel attacks specific to SDN environments. Here are three patterns that stood out.
+My survey — currently under review at *ACM Computing Surveys* — systematically maps the landscape of side-channel attacks specific to SDN environments.
 
-{% include figure.liquid path="assets/img/blog/sdn_architecture.png" caption="SDN architecture: separated control and data planes, with the controller as a central attack surface." class="img-fluid rounded z-depth-1" zoomable=true %}
+---
 
-**Control-plane timing leaks.** Because SDN switches consult a centralized controller for flow-table misses, the round-trip time of a first-packet lookup leaks information about whether a flow rule exists. An attacker co-located on the data plane can use this to fingerprint traffic policies or infer network topology without breaking any encryption.
+{% include figure.liquid path="assets/img/blog/sdn_architecture.png" caption="SDN architecture (ONF): the separated control and data planes create new side-channel surfaces absent from traditional networks." class="img-fluid rounded z-depth-1" zoomable=true %}
 
-**Flow-table capacity exhaustion as a covert channel.** TCAM-based flow tables have bounded capacity. A malicious tenant can flood the switch with synthetic flows, observe the degradation in legitimate traffic, and extract a timing signal correlated with other tenants' behavior — a covert channel that crosses tenant boundaries without any direct data access.
+---
 
-**Controller load as an oracle.** High-rate packet-in events saturate the controller's processing queue. A patient attacker can modulate their own traffic to probe this queue and infer information about concurrent flows being processed — effectively using the controller as an unwitting oracle.
+#### Three Attack Patterns That Stood Out
 
-{% include figure.liquid path="assets/img/blog/sdn_attack_taxonomy.png" caption="Taxonomy of side-channel attack vectors in SDN environments, organized by attack surface." class="img-fluid rounded z-depth-1" zoomable=true %}
+**Control-plane timing leaks.** Because SDN switches consult a centralized controller for flow-table misses, the round-trip time of a first-packet lookup leaks information about whether a flow rule exists. An attacker co-located on the data plane can fingerprint traffic policies or infer network topology without breaking any encryption.
 
-The survey also reviews proposed defenses — randomized flow-table eviction, rate limiting on packet-in messages, and control-plane isolation — and identifies gaps where no satisfactory mitigation exists yet.
+**Flow-table capacity exhaustion as a covert channel.** TCAM-based flow tables have bounded capacity. A malicious tenant can flood the switch with synthetic flows, observe the degradation in legitimate traffic, and extract a timing signal correlated with other tenants' behavior.
 
-If you are working on SDN security or side-channel defenses and want to discuss the findings, feel free to reach out.
+**Controller load as an oracle.** High-rate packet-in events saturate the controller's processing queue. A patient attacker can modulate their own traffic to probe this queue and infer information about concurrent flows.
+
+---
+
+#### Attack Surface Summary
+
+| Attack Class | Mechanism | Information Leaked | Mitigation Status |
+|---|---|---|---|
+| Control-plane timing | First-packet RTT | Flow-rule existence | Partial |
+| Flow-table exhaustion | TCAM flooding | Cross-tenant traffic | Open problem |
+| Controller load oracle | Packet-in flooding | Concurrent flow state | Partial |
+| Topology fingerprinting | Probe packet timing | Network topology | Limited |
+
+---
+
+{% include figure.liquid path="assets/img/blog/sdn_attack_taxonomy.png" caption="The three primary attack planes in SDN: application layer, control plane, and data plane — each with distinct side-channel vectors." class="img-fluid rounded z-depth-1" zoomable=true %}
+
+---
+
+#### Defense Gaps
+
+The survey identifies three areas where no satisfactory mitigation exists yet:
+
+| Defense Approach | Covers | Gap |
+|---|---|---|
+| Randomized flow-table eviction | Timing leaks | Does not address capacity exhaustion |
+| Rate limiting on packet-in | Controller load oracle | Can degrade legitimate traffic |
+| Control-plane isolation | Cross-tenant inference | Incomplete in multi-tenant deployments |
+
+The survey also reviews proposed defenses and identifies gaps where no satisfactory mitigation exists yet. If you are working on SDN security or side-channel defenses and want to discuss the findings, feel free to reach out.
