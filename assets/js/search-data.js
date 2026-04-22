@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects and software I have built.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -151,7 +151,37 @@ ninja.data = [{
           section: "News",},{id: "news-serving-as-a-reviewer-for-the-iraqi-journal-of-information-and-communication-technology-2026",
           title: 'Serving as a reviewer for the Iraqi Journal of Information and Communication Technology...',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
+          section: "News",},{id: "projects-android-memory-leak-benchmark",
+          title: 'Android Memory Leak Benchmark',
+          description: "Large-scale, manually validated benchmark of 650+ Android projects with confirmed memory leak patterns, built using Soot and FlowDroid.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/android-memory-leak-benchmark/";
+            },},{id: "projects-bookmate",
+          title: 'BookMate',
+          description: "Book tracking and recommendation application for managing reading lists and discovering new titles.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bookmate/";
+            },},{id: "projects-hospital-management-system",
+          title: 'Hospital Management System',
+          description: "Desktop application for managing patient records, appointments, and billing in a hospital environment.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hospital-management-system/";
+            },},{id: "projects-intrusion-detection-system-for-iot",
+          title: 'Intrusion Detection System for IoT',
+          description: "ML-based IDS for IoT infrastructure, presented at ICTIST 2022 (London) and extended to Smart Cities networks (EAI Transactions, 2023).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iot-ids/";
+            },},{id: "projects-llm-assisted-program-analysis",
+          title: 'LLM-Assisted Program Analysis',
+          description: "Studying how large language models can triage, explain, and reason about Android bug patterns to augment static analysis workflows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/llm-program-analysis/";
+            },},{id: "projects-side-channel-attacks-in-sdns",
+          title: 'Side-Channel Attacks in SDNs',
+          description: "Comprehensive survey of side-channel attack vectors in Software-Defined Networks, submitted to ACM Computing Surveys.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sdn-side-channel-survey/";
+            },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
