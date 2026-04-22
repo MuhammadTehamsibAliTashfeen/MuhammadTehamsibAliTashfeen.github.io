@@ -38,6 +38,12 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+
+  @media (min-width: 576px) {
+    &.float-right {
+      margin-top: -120px;
+    }
+  }
 }
 
 // Content layout uses Bootstrap's grid system with responsive columns
