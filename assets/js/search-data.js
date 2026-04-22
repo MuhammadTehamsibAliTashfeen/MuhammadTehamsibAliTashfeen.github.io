@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "PhD Candidate in Electrical Engineering &amp; Computer Science · Wichita State University",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
