@@ -98,11 +98,31 @@ ninja.data = [{
             window.location.href = "/blog/2024/industry-to-phd/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-hacking-the-art-of-exploitation",
+          title: 'Hacking: The Art of Exploitation',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/hacking_art_of_exploitation/";
+            },},{id: "books-android-security-internals",
+          title: 'Android Security Internals',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/android_security_internals/";
+            },},{id: "books-deep-learning",
+          title: 'Deep Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/deep_learning/";
+            },},{id: "books-principles-of-program-analysis",
+          title: 'Principles of Program Analysis',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/principles_of_program_analysis/";
+            },},{id: "books-introduction-to-algorithms",
+          title: 'Introduction to Algorithms',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/introduction_to_algorithms/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
