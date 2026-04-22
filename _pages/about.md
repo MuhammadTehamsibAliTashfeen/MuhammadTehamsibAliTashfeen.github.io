@@ -21,7 +21,7 @@ selected_papers: true
 social: true
 ---
 
-I am a doctoral researcher at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/)**, Wichita State University, advised by Prof. Zhen Shan. My research sits at the intersection of **AI, program analysis, and mobile software security**.
+I am a doctoral researcher at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/)**, Wichita State University, advised by [Prof. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My research sits at the intersection of **AI, program analysis, and mobile software security**.
 
 I build research systems that combine trustworthy datasets, static analysis tooling, and LLM-assisted workflows to detect and reason about defects in Android applications. My current work focuses on three connected problems:
 
