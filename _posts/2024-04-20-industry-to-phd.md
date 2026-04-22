@@ -24,10 +24,6 @@ It was not the most glamorous work, but it gave me something that many PhD stude
 
 ---
 
-{% include figure.liquid path="assets/img/blog/siem_audit.png" caption="SIEM (Security Information and Event Management) infrastructure — the operational environment I worked with during three years of enterprise IS auditing." class="img-fluid rounded z-depth-1" zoomable=true %}
-
----
-
 #### What Changed When I Started the PhD
 
 **How I read papers.** In industry, a false positive in an automated security scan is not an academic statistic — it is an analyst spending three hours chasing a ghost finding. When I see precision numbers in the 60–70% range described as "acceptable" in a paper, I think about what that means operationally. It sharpens the questions I ask.
@@ -46,10 +42,6 @@ It was not the most glamorous work, but it gave me something that many PhD stude
 | Problem scope | Defined by client/regulation | Self-directed |
 | Writing style | Concise, templated | Precise, argumentative |
 | Validation method | Compliance frameworks | Empirical evaluation |
-
----
-
-{% include figure.liquid path="assets/img/blog/static_analysis.png" caption="Static analysis for Android security — bridging the gap between enterprise security tooling and rigorous academic evaluation." class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 

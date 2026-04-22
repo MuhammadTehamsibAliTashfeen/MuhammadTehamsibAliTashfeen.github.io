@@ -30,8 +30,6 @@ Soot provides a stable intermediate representation (Jimple) for Android bytecode
 
 #### The Benchmark Construction Pipeline
 
-{% include figure.liquid path="assets/img/blog/benchmark_pipeline.png" caption="Static analysis pipeline: source APKs → Soot IR transformation → FlowDroid taint analysis → flagged results → manual triage → ground-truth labels." class="img-fluid rounded z-depth-1" zoomable=true %}
-
 The pipeline runs in three stages:
 
 1. **Candidate collection** — mining 650+ open-source Android repositories from GitHub using dependency signatures and build metadata.
@@ -49,10 +47,6 @@ The pipeline runs in three stages:
 | Leak pattern targets | `Context`, `View`, `Activity` lifecycle |
 | Ground-truth method | Manual triage + issue tracker |
 | Compute | NSF Expanse HPC (Slurm) |
-
----
-
-{% include figure.liquid path="assets/img/blog/leak_distribution.png" caption="Relationship between AI, ML, and Deep Learning — the methodological stack used for LLM-assisted triage of static analysis results." class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 

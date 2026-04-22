@@ -13,10 +13,6 @@ My survey — currently under review at *ACM Computing Surveys* — systematical
 
 ---
 
-{% include figure.liquid path="assets/img/blog/sdn_architecture.png" caption="SDN architecture (ONF): the separated control and data planes create new side-channel surfaces absent from traditional networks." class="img-fluid rounded z-depth-1" zoomable=true %}
-
----
-
 #### Three Attack Patterns That Stood Out
 
 **Control-plane timing leaks.** Because SDN switches consult a centralized controller for flow-table misses, the round-trip time of a first-packet lookup leaks information about whether a flow rule exists. An attacker co-located on the data plane can fingerprint traffic policies or infer network topology without breaking any encryption.
@@ -35,10 +31,6 @@ My survey — currently under review at *ACM Computing Surveys* — systematical
 | Flow-table exhaustion | TCAM flooding | Cross-tenant traffic | Open problem |
 | Controller load oracle | Packet-in flooding | Concurrent flow state | Partial |
 | Topology fingerprinting | Probe packet timing | Network topology | Limited |
-
----
-
-{% include figure.liquid path="assets/img/blog/sdn_attack_taxonomy.png" caption="The three primary attack planes in SDN: application layer, control plane, and data plane — each with distinct side-channel vectors." class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 
