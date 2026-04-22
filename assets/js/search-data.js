@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Research projects and software I have built.",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -65,37 +65,26 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-side-channel-attacks-in-sdns-what-the-literature-reveals",
+            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
-          title: "Side-Channel Attacks in SDNs: What the Literature Reveals",
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "A summary of key findings from my survey on side-channel attack vectors in Software-Defined Networks, submitted to ACM Computing Surveys.",
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/sdn-side-channel-survey/";
+            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
-      },{id: "post-building-a-memory-leak-benchmark-for-android-with-soot",
+      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
         
-          title: "Building a Memory Leak Benchmark for Android with Soot",
+          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "How I am constructing a large-scale, manually validated benchmark of Android memory leaks using the Soot static analysis framework.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2024/android-static-analysis-soot/";
-          
-        },
-      },{id: "post-from-is-auditor-to-phd-researcher-why-industry-experience-changed-how-i-do-security-research",
-        
-          title: "From IS Auditor to PhD Researcher: Why Industry Experience Changed How I Do...",
-        
-        description: "Reflections on transitioning from three years in enterprise cybersecurity to a PhD program, and what the industry background actually changes about how I approach research problems.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/industry-to-phd/";
+            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "books-the-godfather",
@@ -129,37 +118,7 @@ ninja.data = [{
           section: "News",},{id: "news-serving-as-a-reviewer-for-the-iraqi-journal-of-information-and-communication-technology-2026",
           title: 'Serving as a reviewer for the Iraqi Journal of Information and Communication Technology...',
           description: "",
-          section: "News",},{id: "projects-android-memory-leak-benchmark",
-          title: 'Android Memory Leak Benchmark',
-          description: "Large-scale, manually validated benchmark of 650+ Android projects with confirmed memory leak patterns, built using Soot and FlowDroid.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/android-memory-leak-benchmark/";
-            },},{id: "projects-bookmate",
-          title: 'BookMate',
-          description: "Book tracking and recommendation application for managing reading lists and discovering new titles.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/bookmate/";
-            },},{id: "projects-hospital-management-system",
-          title: 'Hospital Management System',
-          description: "Desktop application for managing patient records, appointments, and billing in a hospital environment.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/hospital-management-system/";
-            },},{id: "projects-intrusion-detection-system-for-iot",
-          title: 'Intrusion Detection System for IoT',
-          description: "ML-based IDS for IoT infrastructure, presented at ICTIST 2022 (London) and extended to Smart Cities networks (EAI Transactions, 2023).",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/iot-ids/";
-            },},{id: "projects-llm-assisted-program-analysis",
-          title: 'LLM-Assisted Program Analysis',
-          description: "Studying how large language models can triage, explain, and reason about Android bug patterns to augment static analysis workflows.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/llm-program-analysis/";
-            },},{id: "projects-side-channel-attacks-in-sdns",
-          title: 'Side-Channel Attacks in SDNs',
-          description: "Comprehensive survey of side-channel attack vectors in Software-Defined Networks, submitted to ACM Computing Surveys.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/sdn-side-channel-survey/";
-            },},{id: "teachings-data-science-fundamentals",
+          section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
