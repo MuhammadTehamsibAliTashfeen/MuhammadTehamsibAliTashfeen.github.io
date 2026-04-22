@@ -12,6 +12,7 @@ profile:
   image_circular: true
   more_info: >
     <p>Software Analysis &amp; Intelligence Lab</p>
+    <p>256 Jabara Hall</p>
     <p>Wichita State University</p>
     <p>Wichita, Kansas 67260</p>
 
