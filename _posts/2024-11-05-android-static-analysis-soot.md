@@ -15,9 +15,13 @@ My current dissertation work addresses this directly by constructing a manually 
 
 **The benchmark construction pipeline** runs in three stages:
 
+{% include figure.liquid path="assets/img/blog/benchmark_pipeline.png" caption="Three-stage pipeline: candidate collection → static analysis pass → manual ground-truth triage." class="img-fluid rounded z-depth-1" zoomable=true %}
+
 1. *Candidate collection* — mining open-source Android repositories on GitHub using a combination of dependency signatures and build metadata to identify projects with non-trivial activity lifecycle complexity.
 2. *Static analysis pass* — running FlowDroid with a custom leak-source/sink configuration targeting `Context` and `View` objects held past their expected lifecycle boundaries.
 3. *Manual triage* — reviewing each flagged case against the source code and, where possible, cross-referencing with issue trackers to confirm whether the pattern was a real leak that developers fixed.
+
+{% include figure.liquid path="assets/img/blog/leak_distribution.png" caption="Distribution of confirmed memory leak patterns across the 650+ Android projects in the benchmark." class="img-fluid rounded z-depth-1" zoomable=true %}
 
 The manual triage step is slow but essential. Without it, you end up with a benchmark that reflects the tool's false positive rate rather than the true distribution of Android memory bugs.
 
