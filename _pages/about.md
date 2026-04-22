@@ -20,9 +20,11 @@ selected_papers: true
 social: true
 ---
 
-I am a PhD candidate at the **[Software Analysis and Intelligence Lab](https://www.wichita.edu/)**, Wichita State University, advised by [Prof. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My research focuses on **AI-driven software security**, combining static analysis, LLM-assisted program analysis, and Android vulnerability detection.
+I am a PhD candidate at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/)** (NSF-supported), Wichita State University, advised by [Dr. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My dissertation focuses on LLM-assisted static analysis for Android application leak detection.
 
-Before my PhD, I worked in industry cybersecurity — as a **Senior Consultant at Ernst & Young** and an **IS Auditor at The Bank of Punjab** — which grounds my research in real-world security constraints.
+Before my PhD, I spent three years in industry cybersecurity — as a **Senior Consultant at Ernst & Young** (Technology Risk) and an **Information Systems Auditor at The Bank of Punjab** — evaluating security across 100+ enterprise applications.
+
+**Research interests:** software & mobile security · AI for software engineering · network security (SDNs, side-channel attacks) · trustworthy ML
 
 ---
 
