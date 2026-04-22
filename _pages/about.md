@@ -40,3 +40,11 @@ Before my PhD, I spent three years in industry cybersecurity — as a **Senior C
 **Android Static Analysis** &nbsp; I develop and validate Soot-based tooling for Android Java analysis, with a focus on memory leak patterns, benchmark construction, and empirical evaluation.
 
 **Trustworthy Security Research** &nbsp; I design evaluation frameworks that prioritize manual validation and reproducibility, ensuring that published benchmarks reflect real-world bug distributions rather than synthetic artifacts.
+
+---
+
+#### GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MuhammadTehamsibAliTashfeen&theme=flat&no-frame=true&column=6&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+</p>
