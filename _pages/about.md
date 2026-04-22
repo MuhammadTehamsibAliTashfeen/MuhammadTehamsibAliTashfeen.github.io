@@ -24,8 +24,31 @@ I am a PhD candidate at the **[Software Analysis and Intelligence Lab](https://w
 
 Before my PhD, I worked in industry cybersecurity — as a **Senior Consultant at Ernst & Young** and an **IS Auditor at The Bank of Punjab** — which grounds my research in real-world security constraints.
 
-<p align="center" style="margin-top: 2rem;">
-  <img src="https://github-readme-stats.vercel.app/api?username=MuhammadTehamsibAliTashfeen&show_icons=true&hide_border=true&count_private=true&theme=default&hide_title=false" alt="GitHub Stats" height="165" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadTehamsibAliTashfeen&layout=compact&hide_border=true&theme=default" alt="Top Languages" height="165" />
-</p>
+---
+
+#### Technical Skills
+
+**Program Analysis**
+&nbsp;
+<img src="https://img.shields.io/badge/Soot-static%20analysis-4A90D9?style=flat-square" alt="Soot"/>
+<img src="https://img.shields.io/badge/FlowDroid-taint%20analysis-4A90D9?style=flat-square" alt="FlowDroid"/>
+<img src="https://img.shields.io/badge/Android%20SDK-mobile-4A90D9?style=flat-square" alt="Android SDK"/>
+
+**Machine Learning & AI**
+&nbsp;
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace"/>
+<img src="https://img.shields.io/badge/LLM%20APIs-OpenAI%20%7C%20Anthropic-412991?style=flat-square" alt="LLM APIs"/>
+
+**Languages**
+&nbsp;
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+
+**Infrastructure**
+&nbsp;
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/HPC%20%2F%20Slurm-0D4C73?style=flat-square" alt="HPC/Slurm"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
