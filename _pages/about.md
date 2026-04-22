@@ -25,5 +25,7 @@ I am a PhD candidate at the **[Software Analysis and Intelligence Lab](https://w
 Before my PhD, I worked in industry cybersecurity — as a **Senior Consultant at Ernst & Young** and an **IS Auditor at The Bank of Punjab** — which grounds my research in real-world security constraints.
 
 <p align="center" style="margin-top: 2rem;">
-  <img src="https://github-profile-trophy.vercel.app/?username=MuhammadTehamsibAliTashfeen&theme=flat&no-frame=true&column=6&margin-w=8" alt="GitHub Trophies" style="max-width:100%;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MuhammadTehamsibAliTashfeen&show_icons=true&hide_border=true&count_private=true&theme=default&hide_title=false" alt="GitHub Stats" height="165" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadTehamsibAliTashfeen&layout=compact&hide_border=true&theme=default" alt="Top Languages" height="165" />
 </p>
