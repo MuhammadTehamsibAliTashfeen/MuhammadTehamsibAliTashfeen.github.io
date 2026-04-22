@@ -11,14 +11,14 @@ nav_order: 6
 
 ### Spring 2026
 
-**Advanced Algorithm Analysis (CS 771)**
+**Advanced Algorithms/Analysis (CS 721 · Section 23280)**
+- Schedule: Tuesday / Thursday, 14:00
 - Role: Graduate Teaching Assistant
-- Held weekly office hours, graded assignments and exams, and assisted students with algorithm design, correctness proofs, and complexity analysis.
-- Topics covered: divide-and-conquer, dynamic programming, graph algorithms, NP-completeness, approximation algorithms.
+- Held office hours, graded assignments and exams, and assisted students with algorithm design, correctness proofs, and complexity analysis.
 
 ---
 
-**Introduction to Programming (CS 111)**
+**Introduction to Programming (CS 211 · Section 23251)**
+- Schedule: Tuesday / Thursday, 09:30
 - Role: Graduate Teaching Assistant
-- Delivered lab sessions, provided one-on-one tutoring, and evaluated programming assignments.
-- Topics covered: Python fundamentals, control flow, functions, data structures, and introductory object-oriented programming.
+- Delivered lab sessions, provided one-on-one tutoring, and evaluated programming assignments covering Python fundamentals and introductory object-oriented programming.
