@@ -2,14 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses taught as a Graduate Teaching Assistant at Wichita State University.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Wichita State University
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Spring 2026
 
-{% include courses.liquid %}
+**Advanced Algorithm Analysis (CS 771)**
+- Role: Graduate Teaching Assistant
+- Held weekly office hours, graded assignments and exams, and assisted students with algorithm design, correctness proofs, and complexity analysis.
+- Topics covered: divide-and-conquer, dynamic programming, graph algorithms, NP-completeness, approximation algorithms.
+
+---
+
+**Introduction to Programming (CS 111)**
+- Role: Graduate Teaching Assistant
+- Delivered lab sessions, provided one-on-one tutoring, and evaluated programming assignments.
+- Topics covered: Python fundamentals, control flow, functions, data structures, and introductory object-oriented programming.
