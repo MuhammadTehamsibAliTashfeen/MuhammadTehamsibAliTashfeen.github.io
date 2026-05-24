@@ -16,7 +16,10 @@ profile:
     <p>Wichita State University</p>
     <p>Wichita, Kansas 67260</p>
 
-news: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
 selected_papers: true
 social: true
 ---
