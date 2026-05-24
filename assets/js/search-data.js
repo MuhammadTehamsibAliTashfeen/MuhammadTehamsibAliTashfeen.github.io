@@ -123,18 +123,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/introduction_to_algorithms/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-poster-presentation-at-the-wsu-college-of-engineering-research-day-john-bardo-center-wichita-state-university-software-based-side-channel-attacks",
+            },},{id: "news-poster-presentation-at-the-wsu-college-of-engineering-research-day-john-bardo-center-wichita-state-university-software-based-side-channel-attacks",
           title: 'Poster presentation at the WSU College of Engineering Research Day, John Bardo Center,...',
           description: "",
           section: "News",},{id: "news-oral-presentation-at-cansec-2024-17th-central-area-networking-and-security-workshop-university-of-oklahoma-software-based-side-channel-attacks-in-software-defined-networks",
@@ -151,6 +140,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-competing-in-the-three-minute-thesis-3mt-competition-at-wichita-state-university-graduate-school-presenting-doctoral-research-in-three-minutes-to-a-general-audience",
           title: 'Competing in the Three Minute Thesis (3MT) Competition at Wichita State University Graduate...',
+          description: "",
+          section: "News",},{id: "news-passed-my-phd-dissertation-proposal-defense-my-committee-has-approved-the-proposal-on-llm-assisted-static-analysis-for-android-memory-leak-detection",
+          title: 'Passed my PhD dissertation proposal defense. My committee has approved the proposal on...',
           description: "",
           section: "News",},{id: "projects-android-memory-leak-benchmark",
           title: 'Android Memory Leak Benchmark',
