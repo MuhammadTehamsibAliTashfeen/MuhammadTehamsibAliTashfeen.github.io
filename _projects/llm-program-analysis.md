@@ -36,10 +36,10 @@ A research thread running alongside my dissertation work at WSU SAIL Lab. Advise
 
 #### Approach
 
-- Feed FlowDroid warning + surrounding source context to LLM
-- Compare LLM triage decision against manual ground-truth labels from the Android benchmark
-- Evaluate across prompt strategies and model families (OpenAI, Anthropic, open-weight HuggingFace models)
+- Constructed 3,152 prompt-response examples from LeakScope-flagged Android lifecycle violations
+- Developed LoRA fine-tuning pipelines for CodeLlama, Llama-3, and StarCoder2
+- Evaluated fine-tuned models against GPT-4o on bug triage and explanation quality
 
-**Stack.** Python · HuggingFace Transformers · OpenAI API · Anthropic API · PyTorch
+**Stack.** Python · PyTorch · Hugging Face Transformers · LoRA fine-tuning · GPT-4o evaluation
 
-**Status.** Active — preliminary results in progress.
+**Status.** Active — research software and benchmark data produced as part of the LeakScope dissertation work (see [Projects](/projects/)).

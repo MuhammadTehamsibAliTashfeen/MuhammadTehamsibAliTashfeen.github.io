@@ -1,9 +1,11 @@
 # Social media links — displayed on the about page and navbar
 # See: https://github.com/george-gca/jekyll-socials
 
-cv_pdf: /assets/pdf/PhD_Job_CV.pdf
+cv_pdf: /assets/pdf/assistant_professor_cv.pdf
 email: mxalitashfeen@shockers.wichita.edu
 github_username: MuhammadTehamsibAliTashfeen
 linkedin_username: muhammad-tehmasib-ali-tashfeen-b683831a5
 orcid_id: 0009-0007-3209-5760
 scholar_userid: hlxSvmsAAAAJ
+research_gate_profile: Muhammad-Tehmasib-Ali-Tashfeen
+huggingface_username: alitashfeen

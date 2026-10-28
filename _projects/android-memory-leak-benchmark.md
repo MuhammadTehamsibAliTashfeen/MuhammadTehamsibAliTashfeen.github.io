@@ -1,46 +1,42 @@
 ---
 layout: page
-title: Android Memory Leak Benchmark
-description: Large-scale, manually validated benchmark of 650+ Android projects with confirmed memory leak patterns, built using Soot and FlowDroid.
+title: LeakScope
+description: Soot-based static detection framework for Android lifecycle memory-retention bugs, evaluated on 627 open-source apps. Lead-author submission to ICSE 2027.
 importance: 1
 category: work
 ---
 
-A core component of my dissertation at the [Software Analysis and Intelligence Lab](https://www.wichita.edu/), Wichita State University. Advised by Dr. Zhiyong Shan.
+The flagship artifact of my dissertation at the [Software Analysis and Intelligence Lab](https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php), Wichita State University. Advised by Dr. Zhiyong Shan.
 
-**Problem.** Existing Android static analysis benchmarks are small, synthetically generated, or lack ground-truth validation — making it difficult to evaluate whether new tools represent genuine improvements.
+**Problem.** Existing Android static analysis tools are evaluated on small, synthetically generated benchmarks or lack ground-truth validation — making it difficult to judge whether a new detector represents a genuine improvement over established tools like Android Lint, SpotBugs, and Infer.
 
 ---
 
 #### Pipeline Overview
 
-{% include figure.liquid path="assets/img/projects/ann_recognition.png" caption="Static analysis pipeline: source APKs → IR transformation → taint/data-flow analysis → manual triage → ground-truth labels." class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="assets/img/projects/ann_recognition.png" caption="Detection pipeline: source APKs → IR transformation (Soot/Jimple) → lifecycle-obligation rule matching → manual triage → ground-truth labels." class="img-fluid rounded z-depth-1" zoomable=true %}
 
-**Stage 1 — Candidate Collection.** Mined 650+ open-source Android repositories from GitHub, filtering by activity lifecycle complexity and minimum build health criteria.
-
-**Stage 2 — Static Analysis Pass.** Ran [FlowDroid](https://github.com/secure-software-engineering/FlowDroid) (built on [Soot](https://soot-oss.github.io/soot/)) with a custom source/sink configuration targeting `Context` and `View` objects held past their expected lifecycle boundaries.
-
-**Stage 3 — Manual Triage.** Reviewed each flagged case against the source code and cross-referenced with issue trackers to confirm ground truth.
+**LeakScope** is a Soot-based framework that translates Android lifecycle obligations (e.g., unregistering listeners, releasing `Context` references, closing resources on `onDestroy`) into static rules for detecting memory-retention and resource-management patterns in compiled applications.
 
 ---
 
-#### Benchmark Statistics
+#### Evaluation
 
 | Metric | Value |
 |--------|-------|
-| Android projects analyzed | 650+ |
-| Confirmed leak patterns | In progress |
-| Analysis framework | Soot + FlowDroid |
-| Ground-truth method | Manual triage + issue tracker |
-| HPC cluster | NSF Expanse (Slurm) |
+| Open-source Android apps analyzed | 627 |
+| Apps flagged in the reported study | 485 |
+| Baselines compared | Android Lint, SpotBugs, Infer |
+| Analysis framework | Soot, Jimple IR |
+| HPC cluster | NSF ACCESS / Expanse (Slurm) |
 | Programming language | Java (Android), Python (tooling) |
 
 ---
 
 #### Why Manual Triage Matters
 
-Without manual validation, a benchmark reflects the tool's false positive rate rather than the true distribution of Android memory bugs. Our triage step ensures every entry in the dataset has a confirmed ground-truth label, making it suitable for training and evaluating AI-based bug detection models.
+Without manual validation, a benchmark reflects a tool's false-positive rate rather than the true distribution of Android memory bugs. Ground-truth labels for the underlying dataset are confirmed through manual code inspection and cross-referencing with issue trackers, supervised as part of the lab's mentorship program.
 
-**Stack.** Java · Soot · FlowDroid · Android SDK · Python · Slurm (HPC)
+**Stack.** Java · Soot/Jimple IR · Android SDK · Python · Slurm (HPC)
 
-**Status.** Active — benchmark and tooling will be released publicly alongside the dissertation paper.
+**Status.** Lead-author paper — *"LeakScope: Lifecycle-Aware Static Detection of Memory Retention Patterns in Android"* — submitted to the 49th IEEE/ACM International Conference on Software Engineering ([ICSE 2027](/publications/), Research Track). Also presented as a [tool pitch](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf) at ISSRE 2026.

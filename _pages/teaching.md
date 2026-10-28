@@ -21,4 +21,5 @@ nav_order: 6
 **Introduction to Programming (CS 211 · Section 23251)**
 - Schedule: Tuesday / Thursday, 09:30
 - Role: Graduate Teaching Assistant
-- Delivered lab sessions, provided one-on-one tutoring, and evaluated programming assignments covering Python fundamentals and introductory object-oriented programming.
+- Led two weekly C++ lab sessions covering control flow, functions, data structures, modular design, and object-oriented programming; supported grading and student communication.
+- Guest instruction (Spring 2026): delivered lectures on cross-platform C++ development, installation, and deployment across Windows, macOS, and Linux.
