@@ -1,6 +1,6 @@
 cv:
   name: Muhammad Tehmasib Ali Tashfeen
-  label: PhD Candidate · Electrical Engineering & Computer Science
+  headline: PhD Candidate · Electrical Engineering & Computer Science
   email: mxalitashfeen@shockers.wichita.edu
   location: Wichita, KS
 
@@ -10,12 +10,12 @@ cv:
         location: Wichita, Kansas, USA
         url: https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php
         area: Electrical Engineering and Computer Science
-        studyType: PhD
+        degree: PhD
         start_date: 2023-08
         end_date: 2027-05
         highlights:
           - "GPA: 3.70 / 4.00"
-          - "Dissertation (in progress): \"Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models\""
+          - 'Dissertation (in progress): "Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models"'
           - "Advisor: Dr. Zhiyong Shan, Software Analysis and Intelligence Laboratory (NSF-supported)"
           - "Research focus: AI-assisted software engineering, static program analysis, Android application reliability and security, domain adaptation of code language models, empirical software engineering"
 
@@ -23,12 +23,12 @@ cv:
         location: Peshawar, Pakistan
         url: https://www.nu.edu.pk
         area: Electrical Engineering
-        studyType: BS
+        degree: BS
         start_date: 2015-08
         end_date: 2019-07
         highlights:
           - "CGPA: 3.41 / 4.00"
-          - "Senior Design Project: \"IoT-Based Smart Metering System\""
+          - 'Senior Design Project: "IoT-Based Smart Metering System"'
           - "Dean's List — Fall 2016, Fall 2017, Fall 2018"
 
     Experience:
@@ -109,40 +109,47 @@ cv:
           - "Guest instruction (Spring 2026): delivered lectures on cross-platform C++ development, installation, and deployment across Windows, macOS, and Linux"
 
     Honors and Awards:
-      - title: Award for Excellence in Research & Innovation
+      - name: Award for Excellence in Research & Innovation
+        title: Award for Excellence in Research & Innovation
         date: 2026-09
         awarder: "AIEYS Excellence Recognition Award 2026, AI-Explain You Science"
         url: https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Muhammad%20Tehmasib%20Ali%20Tashfeen%20%20%20%20.pdf
         summary: "Awarded September 30, 2026."
 
-      - title: Research Excellence Award — Excellence in Research and Innovation
+      - name: Research Excellence Award — Excellence in Research and Innovation
+        title: Research Excellence Award — Excellence in Research and Innovation
         date: 2026-09
         awarder: "International Conference on Artificial Intelligence, Cybersecurity, Multimodal Robotics and Drones (ACMRD 2026) & 10th International CoSiM Conference, Uelzen and Berlin, Germany"
         url: https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/WhatsApp%20Image%202026-09-18%20at%2022.03.43.jpeg
 
-      - title: Young Researcher Award
+      - name: Young Researcher Award
+        title: Young Researcher Award
         date: 2025-10
         awarder: "3rd International Conference on Emerging Trends & Innovation (ICETI 2025)"
         url: https://link.springer.com/book/9783032224255
         summary: "Awarded for exceptional dedication and promise in research; presented for outstanding early-career achievements. Proceedings published by Springer, Information Systems Engineering and Management series (vol. 86)."
 
-      - title: Research Excellence Award
+      - name: Research Excellence Award
+        title: Research Excellence Award
         date: 2025-10
         awarder: "3rd International Conference on Emerging Trends & Innovation (ICETI 2025)"
         url: https://link.springer.com/book/9783032224255
         summary: "Recognized for high quality, originality, and impactful contribution to Computing, Artificial Intelligence, and Emerging Technologies. Proceedings published by Springer (vol. 86)."
 
-      - title: Jayne and Glenn Milburn Fellowship
+      - name: Jayne and Glenn Milburn Fellowship
+        title: Jayne and Glenn Milburn Fellowship
         date: 2026-01
         awarder: Wichita State University Graduate School
         summary: "2026–2027 — $400 graduate fellowship awarded based on academic eligibility and financial need."
 
-      - title: ISSRE 2026 Travel Funding
+      - name: ISSRE 2026 Travel Funding
+        title: ISSRE 2026 Travel Funding
         date: 2026-09
         awarder: Wichita State University Student Government Association
         summary: "Approved allocation of $1,500, subject to reimbursement requirements, to present at the 37th IEEE International Symposium on Software Reliability Engineering (ISSRE 2026)."
 
-      - title: Student Travel Grant
+      - name: Student Travel Grant
+        title: Student Travel Grant
         date: 2024-10
         awarder: "17th Central Area Networking and Security Workshop (CANSec 2024)"
         url: https://sites.google.com/view/cansec2024/
