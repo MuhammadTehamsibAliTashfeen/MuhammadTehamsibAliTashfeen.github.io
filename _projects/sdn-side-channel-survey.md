@@ -6,7 +6,7 @@ importance: 3
 category: work
 ---
 
-A systematic literature survey co-authored with [Prof. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php), currently under review at *ACM Computing Surveys*.
+A systematic literature survey co-authored with [Prof. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php), currently under review at _ACM Computing Surveys_.
 
 ---
 
@@ -18,12 +18,12 @@ A systematic literature survey co-authored with [Prof. Zhiyong Shan](https://www
 
 #### Attack Surface Summary
 
-| Attack Class | Vector | Target | Mitigation Gap |
-|---|---|---|---|
-| Control-plane timing leak | First-packet round-trip time | Flow-rule existence | Partial (randomized delays) |
-| Flow-table covert channel | TCAM capacity exhaustion | Cross-tenant traffic inference | Open problem |
-| Controller load oracle | High-rate packet-in flooding | Concurrent flow state | Partial (rate limiting) |
-| Topology fingerprinting | Probe packet timing | Network topology | Limited coverage |
+| Attack Class              | Vector                       | Target                         | Mitigation Gap              |
+| ------------------------- | ---------------------------- | ------------------------------ | --------------------------- |
+| Control-plane timing leak | First-packet round-trip time | Flow-rule existence            | Partial (randomized delays) |
+| Flow-table covert channel | TCAM capacity exhaustion     | Cross-tenant traffic inference | Open problem                |
+| Controller load oracle    | High-rate packet-in flooding | Concurrent flow state          | Partial (rate limiting)     |
+| Topology fingerprinting   | Probe packet timing          | Network topology               | Limited coverage            |
 
 ---
 
@@ -35,4 +35,4 @@ A systematic literature survey co-authored with [Prof. Zhiyong Shan](https://www
 2. **Flow-table covert channels** — TCAM capacity exhaustion allows a malicious tenant to infer other tenants' traffic across isolation boundaries.
 3. **Controller load oracles** — saturating the packet-in queue enables inference about concurrent flow state.
 
-**Status.** Under review at *ACM Computing Surveys* (2025).
+**Status.** Under review at _ACM Computing Surveys_ (2025).

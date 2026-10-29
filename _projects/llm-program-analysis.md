@@ -26,11 +26,11 @@ A research thread running alongside my dissertation work at WSU SAIL Lab. Advise
 
 #### Research Questions
 
-| # | Question |
-|---|----------|
-| 1 | Can LLMs accurately classify static analysis warnings (true vs. false positive) given relevant code context? |
-| 2 | How do prompting strategies (zero-shot, CoT, RAG) affect precision on Android bug triage? |
-| 3 | Where do LLMs systematically fail, and what does that reveal about the limits of in-context program reasoning? |
+| #   | Question                                                                                                       |
+| --- | -------------------------------------------------------------------------------------------------------------- |
+| 1   | Can LLMs accurately classify static analysis warnings (true vs. false positive) given relevant code context?   |
+| 2   | How do prompting strategies (zero-shot, CoT, RAG) affect precision on Android bug triage?                      |
+| 3   | Where do LLMs systematically fail, and what does that reveal about the limits of in-context program reasoning? |
 
 ---
 

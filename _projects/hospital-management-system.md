@@ -10,6 +10,7 @@ github: MuhammadTehamsibAliTashfeen/Hospital-Management-System
 A full-featured hospital management desktop application built as an academic project.
 
 **Features.**
+
 - Patient registration and medical record management
 - Appointment scheduling with doctor availability tracking
 - Billing and invoice generation

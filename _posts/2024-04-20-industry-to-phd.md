@@ -15,12 +15,12 @@ It was not the most glamorous work, but it gave me something that many PhD stude
 
 #### My Career Path
 
-| Period | Role | Organization |
-|---|---|---|
-| Jan 2020 – Nov 2020 | Executive Engineer | Iron Bridge Systems |
-| Nov 2020 – Mar 2023 | Information Systems Auditor | The Bank of Punjab |
-| Mar 2023 – Jun 2023 | Senior Consultant, Technology Risk | Ernst & Young |
-| Aug 2023 – Present | PhD Researcher | Wichita State University (SAIL Lab) |
+| Period              | Role                               | Organization                        |
+| ------------------- | ---------------------------------- | ----------------------------------- |
+| Jan 2020 – Nov 2020 | Executive Engineer                 | Iron Bridge Systems                 |
+| Nov 2020 – Mar 2023 | Information Systems Auditor        | The Bank of Punjab                  |
+| Mar 2023 – Jun 2023 | Senior Consultant, Technology Risk | Ernst & Young                       |
+| Aug 2023 – Present  | PhD Researcher                     | Wichita State University (SAIL Lab) |
 
 ---
 
@@ -34,14 +34,14 @@ It was not the most glamorous work, but it gave me something that many PhD stude
 
 #### Industry vs. Research: Key Differences
 
-| Dimension | Industry (IS Audit) | PhD Research |
-|---|---|---|
-| Output format | Structured audit report | Academic paper |
-| Timelines | Fixed quarterly cycles | Reviewer-driven (unpredictable) |
-| Precision expectation | Zero tolerance for false positives | Accepted with caveats |
-| Problem scope | Defined by client/regulation | Self-directed |
-| Writing style | Concise, templated | Precise, argumentative |
-| Validation method | Compliance frameworks | Empirical evaluation |
+| Dimension             | Industry (IS Audit)                | PhD Research                    |
+| --------------------- | ---------------------------------- | ------------------------------- |
+| Output format         | Structured audit report            | Academic paper                  |
+| Timelines             | Fixed quarterly cycles             | Reviewer-driven (unpredictable) |
+| Precision expectation | Zero tolerance for false positives | Accepted with caveats           |
+| Problem scope         | Defined by client/regulation       | Self-directed                   |
+| Writing style         | Concise, templated                 | Precise, argumentative          |
+| Validation method     | Compliance frameworks              | Empirical evaluation            |
 
 ---
 

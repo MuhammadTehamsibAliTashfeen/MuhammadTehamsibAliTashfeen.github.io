@@ -12,6 +12,7 @@ nav_order: 6
 ### Spring 2026
 
 **Advanced Algorithms/Analysis (CS 721 · Section 23280)**
+
 - Schedule: Tuesday / Thursday, 14:00
 - Role: Graduate Teaching Assistant
 - Held office hours, graded assignments and exams, and assisted students with algorithm design, correctness proofs, and complexity analysis.
@@ -19,6 +20,7 @@ nav_order: 6
 ---
 
 **Introduction to Programming (CS 211 · Section 23251)**
+
 - Schedule: Tuesday / Thursday, 09:30
 - Role: Graduate Teaching Assistant
 - Led two weekly C++ lab sessions covering control flow, functions, data structures, modular design, and object-oriented programming; supported grading and student communication.

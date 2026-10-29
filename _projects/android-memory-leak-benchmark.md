@@ -22,14 +22,14 @@ The flagship artifact of my dissertation at the [Software Analysis and Intellige
 
 #### Evaluation
 
-| Metric | Value |
-|--------|-------|
-| Open-source Android apps analyzed | 627 |
-| Apps flagged in the reported study | 485 |
-| Baselines compared | Android Lint, SpotBugs, Infer |
-| Analysis framework | Soot, Jimple IR |
-| HPC cluster | NSF ACCESS / Expanse (Slurm) |
-| Programming language | Java (Android), Python (tooling) |
+| Metric                             | Value                            |
+| ---------------------------------- | -------------------------------- |
+| Open-source Android apps analyzed  | 627                              |
+| Apps flagged in the reported study | 485                              |
+| Baselines compared                 | Android Lint, SpotBugs, Infer    |
+| Analysis framework                 | Soot, Jimple IR                  |
+| HPC cluster                        | NSF ACCESS / Expanse (Slurm)     |
+| Programming language               | Java (Android), Python (tooling) |
 
 ---
 
@@ -39,4 +39,4 @@ Without manual validation, a benchmark reflects a tool's false-positive rate rat
 
 **Stack.** Java · Soot/Jimple IR · Android SDK · Python · Slurm (HPC)
 
-**Status.** Lead-author paper — *"LeakScope: Lifecycle-Aware Static Detection of Memory Retention Patterns in Android"* — submitted to the 49th IEEE/ACM International Conference on Software Engineering ([ICSE 2027](/publications/), Research Track). Also presented as a [tool pitch](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf) at ISSRE 2026.
+**Status.** Lead-author paper — _"LeakScope: Lifecycle-Aware Static Detection of Memory Retention Patterns in Android"_ — submitted to the 49th IEEE/ACM International Conference on Software Engineering ([ICSE 2027](/publications/), Research Track). Also presented as a [tool pitch](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf) at ISSRE 2026.

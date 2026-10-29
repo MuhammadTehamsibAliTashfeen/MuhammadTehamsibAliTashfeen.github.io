@@ -24,7 +24,7 @@ selected_papers: true
 social: true
 ---
 
-I am a PhD candidate at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php)** (NSF-supported), Wichita State University, advised by [Dr. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My dissertation, *"Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models,"* combines static program analysis with domain-adapted code language models to detect Android lifecycle violations. I lead development of **LeakScope**, a Soot-based detection framework evaluated on 627 open-source Android apps.
+I am a PhD candidate at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php)** (NSF-supported), Wichita State University, advised by [Dr. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My dissertation, _"Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models,"_ combines static program analysis with domain-adapted code language models to detect Android lifecycle violations. I lead development of **LeakScope**, a Soot-based detection framework evaluated on 627 open-source Android apps.
 
 Before my PhD, I spent three years in industry cybersecurity — as a **Senior Consultant at Ernst & Young** (Technology Risk) and an **Information Systems Auditor at The Bank of Punjab** — evaluating security across 100+ enterprise applications.
 

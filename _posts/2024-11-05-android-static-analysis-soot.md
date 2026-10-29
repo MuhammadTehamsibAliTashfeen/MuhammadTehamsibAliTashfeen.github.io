@@ -17,14 +17,14 @@ My dissertation work addresses this by constructing a manually validated benchma
 
 Soot provides a stable intermediate representation (Jimple) for Android bytecode that survives the dex-to-IR conversion cleanly. FlowDroid — built on top of Soot — gives us taint tracking with context, flow, and field sensitivity out of the box.
 
-| Property | Soot / FlowDroid | Alternative Tools |
-|---|---|---|
-| IR stability | Jimple (stable) | Varies |
-| Context sensitivity | ✓ | Partial |
-| Flow sensitivity | ✓ | Partial |
-| Field sensitivity | ✓ | Rare |
-| Android lifecycle model | ✓ (FlowDroid) | Limited |
-| Open source | ✓ | Mixed |
+| Property                | Soot / FlowDroid | Alternative Tools |
+| ----------------------- | ---------------- | ----------------- |
+| IR stability            | Jimple (stable)  | Varies            |
+| Context sensitivity     | ✓                | Partial           |
+| Flow sensitivity        | ✓                | Partial           |
+| Field sensitivity       | ✓                | Rare              |
+| Android lifecycle model | ✓ (FlowDroid)    | Limited           |
+| Open source             | ✓                | Mixed             |
 
 ---
 
@@ -40,13 +40,13 @@ The pipeline runs in three stages:
 
 #### Benchmark Statistics
 
-| Metric | Value |
-|---|---|
-| Projects collected | 650+ |
-| Analysis framework | Soot + FlowDroid |
+| Metric               | Value                                   |
+| -------------------- | --------------------------------------- |
+| Projects collected   | 650+                                    |
+| Analysis framework   | Soot + FlowDroid                        |
 | Leak pattern targets | `Context`, `View`, `Activity` lifecycle |
-| Ground-truth method | Manual triage + issue tracker |
-| Compute | NSF Expanse HPC (Slurm) |
+| Ground-truth method  | Manual triage + issue tracker           |
+| Compute              | NSF Expanse HPC (Slurm)                 |
 
 ---
 

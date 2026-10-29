@@ -10,6 +10,7 @@ github: MuhammadTehamsibAliTashfeen/BookMate
 A personal book management application for tracking reading progress and organizing collections.
 
 **Features.**
+
 - Reading list management (to-read, in-progress, completed)
 - Book search and metadata retrieval
 - Reading progress tracking and statistics

@@ -24,9 +24,9 @@ Two related publications on applying machine learning to intrusion detection in 
 
 #### Publications
 
-| Venue | Title | Year |
-|-------|-------|------|
-| ICTIST (London, UK) | Intrusion Detection System for IoT Infrastructure | 2022 |
+| Venue                            | Title                                                 | Year |
+| -------------------------------- | ----------------------------------------------------- | ---- |
+| ICTIST (London, UK)              | Intrusion Detection System for IoT Infrastructure     | 2022 |
 | EAI Transactions on Smart Cities | An Intelligent ML-Based IDS for Smart Cities Networks | 2023 |
 
 ---

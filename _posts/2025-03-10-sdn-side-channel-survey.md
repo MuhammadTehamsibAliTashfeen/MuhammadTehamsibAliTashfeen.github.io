@@ -9,7 +9,7 @@ categories: research
 
 Software-Defined Networking decouples the control plane from the data plane, enabling flexible, programmable network management. That architectural separation, however, creates new side-channel attack surfaces that traditional network security models were not designed to address.
 
-My survey — currently under review at *ACM Computing Surveys* — systematically maps the landscape of side-channel attacks specific to SDN environments.
+My survey — currently under review at _ACM Computing Surveys_ — systematically maps the landscape of side-channel attacks specific to SDN environments.
 
 ---
 
@@ -25,12 +25,12 @@ My survey — currently under review at *ACM Computing Surveys* — systematical
 
 #### Attack Surface Summary
 
-| Attack Class | Mechanism | Information Leaked | Mitigation Status |
-|---|---|---|---|
-| Control-plane timing | First-packet RTT | Flow-rule existence | Partial |
-| Flow-table exhaustion | TCAM flooding | Cross-tenant traffic | Open problem |
-| Controller load oracle | Packet-in flooding | Concurrent flow state | Partial |
-| Topology fingerprinting | Probe packet timing | Network topology | Limited |
+| Attack Class            | Mechanism           | Information Leaked    | Mitigation Status |
+| ----------------------- | ------------------- | --------------------- | ----------------- |
+| Control-plane timing    | First-packet RTT    | Flow-rule existence   | Partial           |
+| Flow-table exhaustion   | TCAM flooding       | Cross-tenant traffic  | Open problem      |
+| Controller load oracle  | Packet-in flooding  | Concurrent flow state | Partial           |
+| Topology fingerprinting | Probe packet timing | Network topology      | Limited           |
 
 ---
 
@@ -38,10 +38,10 @@ My survey — currently under review at *ACM Computing Surveys* — systematical
 
 The survey identifies three areas where no satisfactory mitigation exists yet:
 
-| Defense Approach | Covers | Gap |
-|---|---|---|
-| Randomized flow-table eviction | Timing leaks | Does not address capacity exhaustion |
-| Rate limiting on packet-in | Controller load oracle | Can degrade legitimate traffic |
-| Control-plane isolation | Cross-tenant inference | Incomplete in multi-tenant deployments |
+| Defense Approach               | Covers                 | Gap                                    |
+| ------------------------------ | ---------------------- | -------------------------------------- |
+| Randomized flow-table eviction | Timing leaks           | Does not address capacity exhaustion   |
+| Rate limiting on packet-in     | Controller load oracle | Can degrade legitimate traffic         |
+| Control-plane isolation        | Cross-tenant inference | Incomplete in multi-tenant deployments |
 
 The survey also reviews proposed defenses and identifies gaps where no satisfactory mitigation exists yet. If you are working on SDN security or side-channel defenses and want to discuss the findings, feel free to reach out.
