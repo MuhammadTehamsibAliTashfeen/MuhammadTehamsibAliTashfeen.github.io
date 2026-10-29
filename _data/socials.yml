@@ -8,4 +8,7 @@ linkedin_username: muhammad-tehmasib-ali-tashfeen-b683831a5
 orcid_id: 0009-0007-3209-5760
 scholar_userid: hlxSvmsAAAAJ
 research_gate_profile: Muhammad-Tehmasib-Ali-Tashfeen
-huggingface_username: alitashfeen
+huggingface:
+  logo: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  title: Hugging Face
+  url: https://huggingface.co/alitashfeen
