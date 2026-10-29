@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LeakScope
-description: Soot-based static detection framework for Android lifecycle memory-retention bugs, evaluated on 627 open-source apps. Lead-author submission to ICSE 2027.
+description: Soot-based static detection framework for Android lifecycle memory-retention bugs, evaluated on 627 open-source apps. Lead-author manuscript in preparation for MobiSys 2027.
 importance: 1
 category: work
 ---
@@ -39,4 +39,4 @@ Without manual validation, a benchmark reflects a tool's false-positive rate rat
 
 **Stack.** Java · Soot/Jimple IR · Android SDK · Python · Slurm (HPC)
 
-**Status.** Lead-author paper — _"LeakScope: Lifecycle-Aware Static Detection of Memory Retention Patterns in Android"_ — submitted to the 49th IEEE/ACM International Conference on Software Engineering ([ICSE 2027](/publications/), Research Track). Also presented as a [tool pitch](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf) at ISSRE 2026.
+**Status.** Lead-author paper — _"LeakScope: Lifecycle-Aware Static Detection of Memory Retention Patterns in Android"_ — manuscript in preparation for the 25th ACM International Conference on Mobile Systems, Applications, and Services ([MobiSys 2027](/publications/)). Also presented as a [tool pitch](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf) at ISSRE 2026.

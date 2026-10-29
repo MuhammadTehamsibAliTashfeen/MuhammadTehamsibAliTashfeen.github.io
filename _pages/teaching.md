@@ -25,3 +25,11 @@ nav_order: 6
 - Role: Graduate Teaching Assistant
 - Led two weekly C++ lab sessions covering control flow, functions, data structures, modular design, and object-oriented programming; supported grading and student communication.
 - Guest instruction (Spring 2026): delivered lectures on cross-platform C++ development, installation, and deployment across Windows, macOS, and Linux.
+
+---
+
+## Teaching Areas
+
+**Foundational computing:** introductory programming (C++, Python, Java), data structures and algorithms, and software engineering.
+
+**Specialized courses and seminars:** computer security, Android application development and mobile security, static program analysis, and AI for software engineering.

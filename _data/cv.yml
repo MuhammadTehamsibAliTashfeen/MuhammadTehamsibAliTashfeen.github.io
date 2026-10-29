@@ -2,6 +2,7 @@ cv:
   name: Muhammad Tehmasib Ali Tashfeen
   headline: PhD Candidate · Electrical Engineering & Computer Science
   email: mxalitashfeen@shockers.wichita.edu
+  phone: "+13162148670"
   location: Wichita, KS
 
   sections:
@@ -14,7 +15,6 @@ cv:
         start_date: 2023-08
         end_date: 2027-05
         highlights:
-          - "GPA: 3.70 / 4.00"
           - 'Dissertation (in progress): "Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models"'
           - "Advisor: Dr. Zhiyong Shan, Software Analysis and Intelligence Laboratory (NSF-supported)"
           - "Research focus: AI-assisted software engineering, static program analysis, Android application reliability and security, domain adaptation of code language models, empirical software engineering"
@@ -31,6 +31,9 @@ cv:
           - 'Senior Design Project: "IoT-Based Smart Metering System"'
           - "Dean's List — Fall 2016, Fall 2017, Fall 2018"
 
+    Research Interests:
+      - bullet: "AI-assisted software engineering; static program analysis; Android application reliability and security; domain adaptation of code language models; empirical software engineering and reproducible evaluation."
+
     Experience:
       - company: "Wichita State University — Software Analysis & Intelligence Laboratory (NSF-supported)"
         position: Graduate Research Assistant
@@ -44,6 +47,7 @@ cv:
           - "Evaluated the framework on 627 open-source Android apps, flagging 485 apps in the reported study; compared app-level detection coverage with Android Lint, SpotBugs, and Infer"
           - "Constructed 3,152 prompt-response examples and developed LoRA fine-tuning pipelines for CodeLlama, Llama-3, and StarCoder2, evaluated against GPT-4o; produced research software and benchmark data"
           - "Leveraged the NSF ACCESS / Expanse HPC cluster (Slurm, GPU jobs) for large-scale model training and evaluation"
+          - "Lead ongoing work on context-aware fine-tuning of open-source language models for Android anti-pattern detection, with a manuscript in preparation"
           - "Mentors junior graduate and undergraduate researchers; contributes to paper writing, experimental design, and reproducibility"
 
       - company: "Wichita State University — Software Analysis & Intelligence Laboratory"
@@ -55,7 +59,7 @@ cv:
         highlights:
           - "Mentored one undergraduate student researcher and one junior PhD student on static program analysis, empirical software engineering methods, and evaluation workflows"
           - "Supervised ground-truth defect labeling, code inspection criteria, and inter-rater quality control procedures for Android lifecycle memory-retention benchmarks"
-          - "Mentorship directly supported the student's research contributions, resulting in their co-authorship on the 49th IEEE/ACM International Conference on Software Engineering (ICSE 2027) Research Track submission"
+          - "Mentorship directly supported the student's research contributions, resulting in their co-authorship on the LeakScope manuscript in preparation for MobiSys 2027"
 
       - company: Ernst & Young Ford Rhodes
         position: Senior Consultant, Technology Risk
@@ -108,6 +112,10 @@ cv:
           - "Led two weekly C++ lab sessions covering control flow, functions, data structures, modular design, and object-oriented programming; supported grading and student communication"
           - "Guest instruction (Spring 2026): delivered lectures on cross-platform C++ development, installation, and deployment across Windows, macOS, and Linux"
 
+    Teaching Areas:
+      - bullet: "**Foundational computing:** introductory programming (C++, Python, Java), data structures and algorithms, and software engineering."
+      - bullet: "**Specialized courses and seminars:** computer security, Android application development and mobile security, static program analysis, and AI for software engineering."
+
     Honors and Awards:
       - name: Award for Excellence in Research & Innovation
         title: Award for Excellence in Research & Innovation
@@ -157,7 +165,7 @@ cv:
 
     Professional Service:
       - label: "Peer Reviewer"
-        details: "IEEE Communications Standards Magazine, 2026 — completed review of one manuscript."
+        details: "IEEE Communications Standards Magazine, 2026 — completed review of one manuscript. [Public Researcher Profile](https://www.webofscience.com/wos/author/record/RCY-6200-2026)"
       - label: "Professional Membership"
         details: "Member, Institute of Electrical and Electronics Engineers (IEEE)"
       - label: "Conference Volunteering"
@@ -177,16 +185,16 @@ cv:
         icon: fa-solid fa-lock
 
     Talks and Presentations:
-      - bullet: "**Bridging Program Analysis and Large Language Models for Mobile App Security and Reliability** — Invited keynote address, [International Conference on Artificial Intelligence, Cyber Security, Multimodal Robotics, and Drones (ACMRD 2026)](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Bridging_Program_Analysis_LLMs_Mobile_Security_Keynote.pdf), Uelzen & Berlin, Germany (online), September 5–12, 2026."
-      - bullet: "**Toward Reliable Detection of Android Lifecycle Violations with Static Analysis and Domain-Adapted Code Models** — Doctoral Symposium presentation, [37th IEEE International Symposium on Software Reliability Engineering (ISSRE 2026)](https://cyprusconferences.org/issre2026/program/), Limassol, Cyprus, October 2026."
+      - bullet: "**Bridging Program Analysis and Large Language Models for Mobile App Security and Reliability** — Keynote Address, [International Conference on Artificial Intelligence, Cyber Security, Multimodal Robotics, and Drones (ACMRD 2026)](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/WhatsApp%20Image%202026-09-17%20at%2022.04.59.jpeg), Uelzen & Berlin, Germany (online), September 5–12, 2026. [Slides](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Bridging_Program_Analysis_LLMs_Mobile_Security_Keynote.pdf)"
+      - bullet: "**Toward Reliable Detection of Android Lifecycle Violations with Static Analysis and Domain-Adapted Code Models** — Doctoral Symposium presentation, [37th IEEE International Symposium on Software Reliability Engineering (ISSRE 2026)](https://cyprusconferences.org/issre2026/program/), Limassol, Cyprus, October 2026. [Slides](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/slides.pdf)"
       - bullet: "**LeakScope: A Research Artifact for Android Lifecycle Violations** — [Tool pitch presentation](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/ISSRE_Presentation_Poster_Pitch.pdf), ISSRE 2026, Limassol, Cyprus, October 2026."
       - bullet: "**Toward Reliable Detection of Android Lifecycle Violations with Static Analysis and Domain-Adapted Code Models** — [Poster presentation](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Poster_ISSRE_2026.pdf), ISSRE 2026, Limassol, Cyprus, October 2026."
-      - bullet: "**Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models** — [PhD Dissertation Proposal Defense](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/phd_defense_proposal.pdf), School of Computing, Wichita State University, May 11, 2026."
+      - bullet: "**Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models** — [PhD Dissertation Proposal Defense](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/phd_defense_proposal.pdf), School of Computing, Wichita State University, May 11, 2026. [Report](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/phd_proposal_defense.pdf)"
       - bullet: "Three Minute Thesis (3MT) Competition — [Participant](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Three_Minute_Thesis_3MT.pdf), Wichita State University Graduate School, April 25, 2026."
-      - bullet: "PhD Qualifying Examination — Electrical Engineering and Computer Science, [Wichita State University](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/PhD_Qualifying_Exam.pdf), October 2025."
-      - bullet: "**Software-Based Side-Channel Attacks in SDNs** — Oral presentation, [17th Central Area Networking and Security Workshop (CANSec 2024)](https://sites.google.com/view/cansec2024/), University of Oklahoma, Norman, Oklahoma, October 2024. With Z. Shan."
-      - bullet: "**Timing Side-Channel Attacks and Defenses for Login Authentication** — Technical workshop/demo, [WuLUG](https://wichita.campuslabs.com/engage/organization/wulug), February 2024. Demonstrated timing side-channel risk in password-checking logic and presented mitigation code for constant-time comparison."
-      - bullet: "**Software-Based Side-Channel Attacks** — Poster presentation, College of Engineering Research Day, Wichita State University, John Bardo Center, November 2023. With Z. Shan."
+      - bullet: "PhD Qualifying Examination — Electrical Engineering and Computer Science, Wichita State University, October 2025. [Slides](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/PhD_Qualifying_Exam.pdf) [Report](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Qualifying_Exam_Report.pdf)"
+      - bullet: "**Software-Based Side-Channel Attacks in SDNs** — Oral presentation, [17th Central Area Networking and Security Workshop (CANSec 2024)](https://sites.google.com/view/cansec2024/), University of Oklahoma, Norman, Oklahoma, October 2024. With Z. Shan. [Slides](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/CanSEC_presentation.pdf)"
+      - bullet: "**Timing Side-Channel Attacks and Defenses for Login Authentication** — Technical workshop/demo, [WuLUG](https://wichita.campuslabs.com/engage/organization/wulug), February 2024. Demonstrated timing side-channel risk in password-checking logic and presented mitigation code for constant-time comparison and secure authentication handling. [Slides](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Presentation.pdf) [Demo Script](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/Time%20Measurements.ipynb)"
+      - bullet: "**Software-Based Side-Channel Attacks** — Poster presentation, College of Engineering Research Day, Wichita State University, John Bardo Center, November 2023. With Z. Shan. [Poster](https://github.com/MuhammadTehamsibAliTashfeen/-academic-archive/blob/main/CoE_Poster.pdf)"
 
     Skills:
       - name: Program Analysis

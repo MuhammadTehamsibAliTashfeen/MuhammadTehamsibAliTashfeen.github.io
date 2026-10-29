@@ -42,4 +42,4 @@ A research thread running alongside my dissertation work at WSU SAIL Lab. Advise
 
 **Stack.** Python · PyTorch · Hugging Face Transformers · LoRA fine-tuning · GPT-4o evaluation
 
-**Status.** Active — research software and benchmark data produced as part of the LeakScope dissertation work (see [Projects](/projects/)).
+**Status.** Active — research software and benchmark data produced as part of the LeakScope dissertation work (see [Projects](/projects/)). A second manuscript, _"An Empirical Investigation of Open-Source LLMs for Android Anti-Pattern Detection via Context-Aware Fine-Tuning,"_ is in preparation (lead author, with A. Sadat and Z. Shan).

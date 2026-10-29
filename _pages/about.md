@@ -24,37 +24,16 @@ selected_papers: true
 social: true
 ---
 
-I am a PhD candidate at the **[Software Analysis and Intelligence Laboratory](https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php)** (NSF-supported), Wichita State University, advised by [Dr. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My dissertation, _"Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models,"_ combines static program analysis with domain-adapted code language models to detect Android lifecycle violations. I lead development of **LeakScope**, a Soot-based detection framework evaluated on 627 open-source Android apps.
+I am a PhD candidate in the [School of Computing](https://www.wichita.edu/academics/engineering/SoC/) at Wichita State University, working in the [Software Analysis and Intelligence Laboratory](https://www.wichita.edu/academics/engineering/SoC/research/software-intelligence-analysis-lab/index.php) under the supervision of [Dr. Zhiyong Shan](https://www.wichita.edu/profiles/academics/engineering/SoC/01_Faculty/Shan-Zhiyong.php). My dissertation, _"Automated Detection of Android Lifecycle Anti-Patterns: From Static Analysis to Fine-Tuned Large Language Models,"_ develops principled techniques for finding reliability and security defects in mobile software by combining static program analysis with domain-adapted code language models.
 
-Before my PhD, I spent three years in industry cybersecurity — as a **Senior Consultant at Ernst & Young** (Technology Risk) and an **Information Systems Auditor at The Bank of Punjab** — evaluating security across 100+ enterprise applications.
+I designed and built **LeakScope**, a Soot-based static analysis framework that translates Android lifecycle obligations into detection rules for memory-retention and resource-management anti-patterns. In our large-scale empirical study, LeakScope analyzed 627 open-source Android applications and flagged 485, with app-level detection coverage compared against Android Lint, SpotBugs, and Infer. In a parallel line of work, I constructed 3,152 prompt-response examples and developed LoRA fine-tuning pipelines for CodeLlama, Llama-3, and StarCoder2, evaluated against GPT-4o, to investigate whether open-source LLMs can reliably identify lifecycle violations from source code.
 
-**Research interests:** software & mobile security · AI for software engineering · network security (SDNs, side-channel attacks) · trustworthy ML
+Prior to my doctoral studies, I spent three years in industry cybersecurity, including roles as a Senior Consultant (Technology Risk) at Ernst & Young Ford Rhodes and an Information Systems Auditor at The Bank of Punjab, where I evaluated security controls across 100+ enterprise systems and led audits for major telecommunications and financial institutions. I hold a BS in Electrical Engineering from [FAST-NUCES](https://www.nu.edu.pk), Peshawar.
 
----
+#### Research Interests
 
-#### Technical Skills
-
-**Program Analysis**
-&nbsp;
-<img src="https://img.shields.io/badge/Soot-static%20analysis-4A90D9?style=flat-square" alt="Soot"/>
-<img src="https://img.shields.io/badge/FlowDroid-taint%20analysis-4A90D9?style=flat-square" alt="FlowDroid"/>
-<img src="https://img.shields.io/badge/Android%20SDK-mobile-4A90D9?style=flat-square" alt="Android SDK"/>
-
-**Machine Learning & AI**
-&nbsp;
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace"/>
-<img src="https://img.shields.io/badge/LLM%20APIs-OpenAI%20%7C%20Anthropic-412991?style=flat-square" alt="LLM APIs"/>
-
-**Languages**
-&nbsp;
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
-
-**Infrastructure**
-&nbsp;
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
-<img src="https://img.shields.io/badge/HPC%20%2F%20Slurm-0D4C73?style=flat-square" alt="HPC/Slurm"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+- AI-assisted software engineering
+- Static program analysis
+- Android application reliability and security
+- Domain adaptation of code language models
+- Empirical software engineering and reproducible evaluation
